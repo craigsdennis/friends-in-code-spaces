@@ -1,0 +1,9 @@
+-- Migration number: 0001 	 2024-04-24T18:05:53.020Z
+CREATE TABLE interviews (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  title TEXT NOT NULL,
+  company TEXT NOT NULL,
+  durable_object_id TEXT NOT NULL,
+  created DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL
+);

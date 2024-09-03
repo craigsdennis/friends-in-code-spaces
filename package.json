@@ -19,6 +19,7 @@
     "@sveltejs/adapter-cloudflare": "^4.4.0",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "@types/common-tags": "^1.8.4",
     "@types/eslint": "^8.56.0",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
@@ -34,5 +35,11 @@
     "vite": "^5.0.3",
     "wrangler": "^3.51.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@langchain/cloudflare": "^0.0.4",
+    "common-tags": "^1.8.2",
+    "langchain": "^0.1.36",
+    "svelte-markdown": "^0.4.1"
+  }
 }

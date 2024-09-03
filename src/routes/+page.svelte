@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Friends in Code Spaces</h1>
+
+<a href="/interviews">Interviews</a>
+
+<style>
+	a {
+		color: #13a7cd;
+        text-decoration: none;
+	}
+</style>
